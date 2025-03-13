@@ -1,1 +1,2 @@
-
+Trouble shooting scenario:—- getting error provisioner not found while creating pvc and it is in:—— 
+ ------- solution (The Issue was with the nas volume has been removed from this cluster sicne it was no longer in use. But people have started using it so we have raised a ticket to NAS Volume team for reconfiguring. Try to use chatgpt and make use of this scenario, as I couldt do much since we have already raised ticket. All I know they need to add ingress IP into their configuration for the cluster ns. I will also explore this. But it is a good use case from real time scenario.)
